@@ -34,6 +34,10 @@ module "s3_bucket" {
 | policy_block_public_policy | If S3 url of the site to be added to the S3 CORS. | `bool` | `false` | no |
 | policy_restrict_public_buckets | If S3 should restrict public bucket policies for this bucket. | `bool` | `false` | no |
 
+## Outputs
+| Name | Description|
+|------|:--------:|
+| bucket_name | The name og the bucket |
 
 ## Resources that return
 
